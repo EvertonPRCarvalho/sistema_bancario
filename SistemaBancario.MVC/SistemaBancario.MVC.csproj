@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-SistemaBancario.MVC-33907700-e30c-47a8-b8f5-c4e993aa3432</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaBancario.Infra.Data\SistemaBancario.Infra.Data.csproj" />
+    <ProjectReference Include="..\SistemaBancario.Infra.IoC\SistemaBancario.Infra.IoC.csproj" />
+  </ItemGroup>
+
+</Project>
